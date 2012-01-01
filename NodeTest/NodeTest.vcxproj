@@ -80,10 +80,28 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DataCache.cpp" />
+    <ClCompile Include="DataTypes\BaseType.cpp" />
+    <ClCompile Include="DataTypes\Colour.cpp" />
+    <ClCompile Include="DataTypes\Numeric.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Nodes\Adder.cpp" />
+    <ClCompile Include="Nodes\BaseNode.cpp" />
+    <ClCompile Include="Nodes\ColorMixer.cpp" />
+    <ClCompile Include="Pins\BasePin.cpp" />
+    <ClCompile Include="Pins\InputPin.cpp" />
+    <ClCompile Include="Pins\OutputPin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataCache.h" />
+    <ClInclude Include="DataTypes\BaseType.h" />
+    <ClInclude Include="DataTypes\Colour.h" />
+    <ClInclude Include="DataTypes\Numeric.h" />
+    <ClInclude Include="Nodes\Adder.h" />
+    <ClInclude Include="Nodes\BaseNode.h" />
+    <ClInclude Include="Nodes\ColorMixer.h" />
+    <ClInclude Include="Pins\BasePin.h" />
+    <ClInclude Include="Pins\InputPin.h" />
+    <ClInclude Include="Pins\OutputPin.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

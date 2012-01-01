@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Pins">
+      <UniqueIdentifier>{4c967a94-da47-47e3-b5e6-1d971c1ce572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nodes">
+      <UniqueIdentifier>{43bae97c-bc39-4cf0-a042-216a94c25e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataTypes">
+      <UniqueIdentifier>{09e68950-97ab-4327-a610-42c5b1b1c4c3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -21,10 +30,64 @@
     <ClCompile Include="DataCache.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DataTypes\BaseType.cpp">
+      <Filter>DataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="DataTypes\Colour.cpp">
+      <Filter>DataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="DataTypes\Numeric.cpp">
+      <Filter>DataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\Adder.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\ColorMixer.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\BaseNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Pins\BasePin.cpp">
+      <Filter>Pins</Filter>
+    </ClCompile>
+    <ClCompile Include="Pins\InputPin.cpp">
+      <Filter>Pins</Filter>
+    </ClCompile>
+    <ClCompile Include="Pins\OutputPin.cpp">
+      <Filter>Pins</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataCache.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTypes\BaseType.h">
+      <Filter>DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTypes\Numeric.h">
+      <Filter>DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTypes\Colour.h">
+      <Filter>DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodes\Adder.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodes\BaseNode.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodes\ColorMixer.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Pins\BasePin.h">
+      <Filter>Pins</Filter>
+    </ClInclude>
+    <ClInclude Include="Pins\InputPin.h">
+      <Filter>Pins</Filter>
+    </ClInclude>
+    <ClInclude Include="Pins\OutputPin.h">
+      <Filter>Pins</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

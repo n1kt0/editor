@@ -6,6 +6,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{71D4459E-0206-48B0-8ED7-A9C51E8A7C41}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{CB281E41-130E-4067-BE0F-66E790A19911}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\ToDo.txt = Docs\ToDo.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML", "UML", "{FFD2D879-763A-46FB-87FF-062A72AF05FB}"
 	ProjectSection(SolutionItems) = preProject

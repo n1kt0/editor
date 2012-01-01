@@ -1,0 +1,19 @@
+ToDo list
+---------
+
+States: NS - Not started, WIP - Work in progress, D - Done, NS - Needs review
+
+-----------------------------------------------------------------------------
+
+Item - State
+------------
+Creates basic class structure - WIP
+Create UML diagrams - WIP
+Implement data type abstraction - NS
+Implement input pin - NS
+Implement output pin - NS
+Implement node - NS
+Implement graph - NS
+Implement pin/node logic (prevent circularity, output pins to input pins only, no connection to the same owner node) - NS
+Implement global cache for performance (output pin requests new data container, input pin receives pointer of the container of the connected output pin)- WIP
+

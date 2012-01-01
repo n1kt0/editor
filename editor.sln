@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 11
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NodeTest", "NodeTest\NodeTest.vcxproj", "{B787D4B6-0459-484F-97E7-397FDBE4445A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{71D4459E-0206-48B0-8ED7-A9C51E8A7C41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{CB281E41-130E-4067-BE0F-66E790A19911}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML", "UML", "{FFD2D879-763A-46FB-87FF-062A72AF05FB}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\UML\Node_based_interface.graphml = Docs\UML\Node_based_interface.graphml
+		Docs\UML\readme.txt = Docs\UML\readme.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -16,5 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB281E41-130E-4067-BE0F-66E790A19911} = {71D4459E-0206-48B0-8ED7-A9C51E8A7C41}
+		{FFD2D879-763A-46FB-87FF-062A72AF05FB} = {CB281E41-130E-4067-BE0F-66E790A19911}
 	EndGlobalSection
 EndGlobal

@@ -1,4 +1,10 @@
+#pragma once
+#ifndef DATA_CACHE_H
+#define DATA_CACHE_H
+
 #include <vector>
+
+#include "DataTypes\BaseType.h"
 
 using namespace std;
 
@@ -20,11 +26,28 @@ public:
 
 class DataCache
 {
+	static DataCache* instance;
 public:
-	vector<CacheItem*> cachedItems;
+	vector<BaseType*> cachedItems;
+	//vector<CacheItem*> cachedItems;
 
-	template<class T> void AddData(T* item)
+	static DataCache* GetInstance();
+
+	//template<class T> void AddData(T* item)
+	//{
+	//	cachedItems.push_back(item);
+	//}
+
+	template<class T> T* AddNewData()
 	{
+		T* item = new T();
 		cachedItems.push_back(item);
+		return item;
 	}
+
+private:
+	DataCache() {}
+
 };
+
+#endif //DATA_CACHE_H

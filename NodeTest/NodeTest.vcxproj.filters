@@ -33,14 +33,8 @@
     <ClCompile Include="DataTypes\BaseType.cpp">
       <Filter>DataTypes</Filter>
     </ClCompile>
-    <ClCompile Include="DataTypes\Colour.cpp">
-      <Filter>DataTypes</Filter>
-    </ClCompile>
     <ClCompile Include="DataTypes\Numeric.cpp">
       <Filter>DataTypes</Filter>
-    </ClCompile>
-    <ClCompile Include="Nodes\Adder.cpp">
-      <Filter>Nodes</Filter>
     </ClCompile>
     <ClCompile Include="Nodes\ColorMixer.cpp">
       <Filter>Nodes</Filter>
@@ -57,6 +51,15 @@
     <ClCompile Include="Pins\OutputPin.cpp">
       <Filter>Pins</Filter>
     </ClCompile>
+    <ClCompile Include="DataTypes\Color.cpp">
+      <Filter>DataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\ConstantNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodes\AdderNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataCache.h">
@@ -67,12 +70,6 @@
     </ClInclude>
     <ClInclude Include="DataTypes\Numeric.h">
       <Filter>DataTypes</Filter>
-    </ClInclude>
-    <ClInclude Include="DataTypes\Colour.h">
-      <Filter>DataTypes</Filter>
-    </ClInclude>
-    <ClInclude Include="Nodes\Adder.h">
-      <Filter>Nodes</Filter>
     </ClInclude>
     <ClInclude Include="Nodes\BaseNode.h">
       <Filter>Nodes</Filter>
@@ -88,6 +85,15 @@
     </ClInclude>
     <ClInclude Include="Pins\OutputPin.h">
       <Filter>Pins</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTypes\Color.h">
+      <Filter>DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodes\ConstantNode.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodes\AdderNode.h">
+      <Filter>Nodes</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -44,6 +44,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSDK_IncludePath);C:\Program Files\boost\;</IncludePath>
+    <LibraryPath>$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSDK_LibraryPath_x86);C:\Program Files\boost\lib;$(FrameworkSDKDir)\lib</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -59,6 +61,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -81,12 +84,13 @@
   <ItemGroup>
     <ClCompile Include="DataCache.cpp" />
     <ClCompile Include="DataTypes\BaseType.cpp" />
-    <ClCompile Include="DataTypes\Colour.cpp" />
+    <ClCompile Include="DataTypes\Color.cpp" />
     <ClCompile Include="DataTypes\Numeric.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Nodes\Adder.cpp" />
+    <ClCompile Include="Nodes\AdderNode.cpp" />
     <ClCompile Include="Nodes\BaseNode.cpp" />
     <ClCompile Include="Nodes\ColorMixer.cpp" />
+    <ClCompile Include="Nodes\ConstantNode.cpp" />
     <ClCompile Include="Pins\BasePin.cpp" />
     <ClCompile Include="Pins\InputPin.cpp" />
     <ClCompile Include="Pins\OutputPin.cpp" />
@@ -94,11 +98,12 @@
   <ItemGroup>
     <ClInclude Include="DataCache.h" />
     <ClInclude Include="DataTypes\BaseType.h" />
-    <ClInclude Include="DataTypes\Colour.h" />
+    <ClInclude Include="DataTypes\Color.h" />
     <ClInclude Include="DataTypes\Numeric.h" />
-    <ClInclude Include="Nodes\Adder.h" />
+    <ClInclude Include="Nodes\AdderNode.h" />
     <ClInclude Include="Nodes\BaseNode.h" />
     <ClInclude Include="Nodes\ColorMixer.h" />
+    <ClInclude Include="Nodes\ConstantNode.h" />
     <ClInclude Include="Pins\BasePin.h" />
     <ClInclude Include="Pins\InputPin.h" />
     <ClInclude Include="Pins\OutputPin.h" />

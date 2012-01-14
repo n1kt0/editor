@@ -96,9 +96,9 @@ public:
 		byte green = G + color.G;
 		byte blue = B + color.B;
 
-		ByteColor resultColor(red, green, blue);
+		ByteColor* resultColor = new ByteColor(red, green, blue);
 
-		return resultColor;
+		return *resultColor;
 	}
 };
 

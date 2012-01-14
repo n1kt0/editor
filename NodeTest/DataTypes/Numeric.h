@@ -3,34 +3,56 @@
 
 class Numeric : public BaseType
 {
-	double* data;
+	double data;
+
 public:
-	Numeric(void);
+	Numeric()
+	{
+		data = 0;
+	}
+
 	Numeric(double);
+
+	Numeric& operator=(double value)
+	{
+		data = value;
+		return *this;
+	}
+
+	Numeric& operator+(Numeric num)
+	{
+		data += num.data;
+		return *this;
+	}
+
+//	double* data;
+//public:
+//	Numeric(void);
+//	
 	~Numeric(void);
-
-	//Numeric operator=(double value);
-	Numeric operator=(double value);
-	
-	// Overload +. 
-	double operator+(Numeric* op2) 
-	{ 
-		//Numeric* temp = this; 
-		double val = *data + *op2->data;
-		//*temp->data = *data + *op2->data;  
-		return val; 
-	} 
-
-	// Overload +. 
-	//Numeric operator+(Numeric* op2) 
-	//{ 
-	//	//Numeric temp;// = this; 
-	//	//temp.data = *data + *op2->data;
-	//	//*data += *op2->data;
-	//	//*temp->data = *data + *op2->data;  
-	//	return this; 
-	//} 
-
+//
+//	//Numeric operator=(double value);
+//	Numeric operator=(double value);
+//	
+//	// Overload +. 
+//	double operator+(Numeric* op2) 
+//	{ 
+//		//Numeric* temp = this; 
+//		double val = *data + *op2->data;
+//		//*temp->data = *data + *op2->data;  
+//		return val; 
+//	} 
+//
+//	// Overload +. 
+//	//Numeric operator+(Numeric* op2) 
+//	//{ 
+//	//	//Numeric temp;// = this; 
+//	//	//temp.data = *data + *op2->data;
+//	//	//*data += *op2->data;
+//	//	//*temp->data = *data + *op2->data;  
+//	//	return this; 
+//	//} 
+//
 	double GetValue();
 };
 

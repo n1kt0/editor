@@ -1,15 +1,13 @@
 #include "Numeric.h"
 
-Numeric::Numeric(void)
-{
-	data = new double;
-	*data = 0.0;
-}
+//Numeric::Numeric(void)
+//{
+//	data = 0.0;
+//}
 
 Numeric::Numeric(double value)
 {
-	data = new double;
-	*data = value;
+	data = value;
 }
 
 Numeric::~Numeric(void)
@@ -18,7 +16,7 @@ Numeric::~Numeric(void)
 
 double Numeric::GetValue()
 {
-	return *data;
+	return data;
 }
 
 //Numeric Numeric::operator=(double value)
@@ -28,8 +26,9 @@ double Numeric::GetValue()
 //	return num;
 //}
 
-Numeric Numeric::operator=(double value)
-{
-	*data = value;
-	return *this;
-}
+//Numeric Numeric::operator=(double value)
+//{
+//	*data = value;
+//	return *this;
+//}
+

@@ -1,0 +1,40 @@
+﻿Build started 15.01.2012 18:31:18.
+     1>Project "C:\Users\nikita\Documents\Git\editor\NodeTest\NodeTest.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\NodeTest.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Graph.cpp NumberOutput.cpp
+         Graph.cpp
+         NumberOutput.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\nikita\Documents\Git\editor\Release\NodeTest.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\NodeTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\nikita\Documents\Git\editor\Release\NodeTest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\nikita\Documents\Git\editor\Release\NodeTest.lib" /MACHINE:X86 /SAFESEH Release\BType.obj
+         Release\ByteColor.obj
+         Release\DataCache.obj
+         Release\BaseType.obj
+         Release\Color.obj
+         Release\Numeric.obj
+         Release\Graph.obj
+         Release\Main.obj
+         Release\My_Visitor.obj
+         Release\AdderNode.obj
+         Release\BaseNode.obj
+         Release\ColorMixer.obj
+         Release\ConstantNode.obj
+         Release\Number.obj
+         Release\NumberOutput.obj
+         Release\BasePin.obj
+         Release\InputPin.obj
+         Release\OutputPin.obj
+         Generating code
+         Finished generating code
+         NodeTest.vcxproj -> C:\Users\nikita\Documents\Git\editor\Release\NodeTest.exe
+       Manifest:
+         C:\Program Files\Windows Kits\8.0\bin\x86\mt.exe /nologo /verbose /outputresource:"C:\Users\nikita\Documents\Git\editor\Release\NodeTest.exe;#1" /manifest Release\NodeTest.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\NodeTest.unsuccessfulbuild".
+         Touching "Release\NodeTest.lastbuildstate".
+     1>Done Building Project "C:\Users\nikita\Documents\Git\editor\NodeTest\NodeTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.57

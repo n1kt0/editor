@@ -1,0 +1,7 @@
+http://coral-app.com/
+http://code.google.com/p/coral-repo/source/browse/coral/coral/src/Numeric.cpp
+https://github.com/nical/kiwi
+http://zeal.codeplex.com/
+https://launchpad.net/nodekit
+http://shaders.codeplex.com/
+http://uscript.net/docs/index.php?title=Custom_Action_Node_Tutorial_1

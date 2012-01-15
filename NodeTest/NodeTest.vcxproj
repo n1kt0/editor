@@ -82,28 +82,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BType.cpp" />
+    <ClCompile Include="ByteColor.cpp" />
     <ClCompile Include="DataCache.cpp" />
     <ClCompile Include="DataTypes\BaseType.cpp" />
     <ClCompile Include="DataTypes\Color.cpp" />
     <ClCompile Include="DataTypes\Numeric.cpp" />
+    <ClCompile Include="Graph.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="My_Visitor.cpp" />
     <ClCompile Include="Nodes\AdderNode.cpp" />
     <ClCompile Include="Nodes\BaseNode.cpp" />
     <ClCompile Include="Nodes\ColorMixer.cpp" />
     <ClCompile Include="Nodes\ConstantNode.cpp" />
+    <ClCompile Include="Number.cpp" />
+    <ClCompile Include="NumberOutput.cpp" />
     <ClCompile Include="Pins\BasePin.cpp" />
     <ClCompile Include="Pins\InputPin.cpp" />
     <ClCompile Include="Pins\OutputPin.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BType.h" />
+    <ClInclude Include="ByteColor.h" />
     <ClInclude Include="DataCache.h" />
     <ClInclude Include="DataTypes\BaseType.h" />
     <ClInclude Include="DataTypes\Color.h" />
     <ClInclude Include="DataTypes\Numeric.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="My_Visitor.h" />
     <ClInclude Include="Nodes\AdderNode.h" />
     <ClInclude Include="Nodes\BaseNode.h" />
     <ClInclude Include="Nodes\ColorMixer.h" />
     <ClInclude Include="Nodes\ConstantNode.h" />
+    <ClInclude Include="Number.h" />
+    <ClInclude Include="NumberOutput.h" />
     <ClInclude Include="Pins\BasePin.h" />
     <ClInclude Include="Pins\InputPin.h" />
     <ClInclude Include="Pins\OutputPin.h" />

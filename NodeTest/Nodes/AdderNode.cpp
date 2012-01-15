@@ -16,10 +16,11 @@ AdderNode::~AdderNode(void)
 
 void AdderNode::Process()
 {
-	Numeric a = *aPin->GetValue();
-	Numeric b = *bPin->GetValue();//.GetValue();
-	//double val = a + b;
-	Numeric result = a + b; //(a->GetValue() + b->GetValue());
+	resultPin->SetValue((*aPin->GetValue())+(*bPin->GetValue()));
+	//Numeric a = *aPin->GetValue();
+	//Numeric b = *bPin->GetValue();//.GetValue();
+	////double val = a + b;
+	//Numeric result = a + b; //(a->GetValue() + b->GetValue());
 
-	resultPin->SetValue(result);
+	//resultPin->SetValue(result);
 }

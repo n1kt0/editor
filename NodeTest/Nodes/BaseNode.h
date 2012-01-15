@@ -6,5 +6,6 @@ public:
 	~BaseNode(void);
 
 	virtual void Process() = 0;
+
 };
 
